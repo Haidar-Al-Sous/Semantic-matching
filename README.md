@@ -1,4 +1,4 @@
-# Comparative Study of Semantic Matching techniques
+# Comparative Study of Semantic Matching Techniques
 
 ## Introduction
 
