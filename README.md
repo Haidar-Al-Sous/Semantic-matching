@@ -13,10 +13,10 @@ We evaluated different embeddings techniques using this [dataset](https://www.ka
 Before explaining each appproach, we want to emphasize that the goal is to calculate sentence embeddings in the most accurate way.
 
 ### 1. Unweighted Average of Word2Vec Embeddings
-This approach consists of simply taking average of words' embeddings (using Word2Vec) for each sentence.
+  This approach consists of simply taking average of words' embeddings (using Word2Vec) for each sentence.
 
 ### 2. Unweighted Average of Siamese CBOW Embeddings [1]
-In this approach, the goal is to compute words embeddings in a way that use info about the nearby sentences. First, We initialize embeddings for each word randomly. Then, we take the average of them for each sentence. After that, 
+  In this approach, the goal is to compute words embeddings in a way that use info about the nearby sentences. First, We initialize embeddings for each word randomly. Then, we take the average of them for each sentence. After that, 
 
 ## Setup
 - requirements [here](https://github.com/Haidar-Al-Sous/Semantic-matching/blob/main/requirements.txt)
