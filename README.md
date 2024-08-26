@@ -11,4 +11,5 @@
 - Gensim library for loading pre-trained models
 
 ## Setup
-- Install the requirements using [here]()
+- Install the requirements using pip install -r requirements.txt
+- requirements [here](https://github.com/Haidar-Al-Sous/Semantic-matching/blob/main/requirements.txt)
