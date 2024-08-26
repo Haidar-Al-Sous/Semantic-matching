@@ -6,4 +6,6 @@
 
 ## Setup
 - requirements [here](https://github.com/Haidar-Al-Sous/Semantic-matching/blob/main/requirements.txt)
-- Install the requirements using pip install -r requirements.txt
+- Install the requirements using :
+```bash
+pip install -r requirements.txt
