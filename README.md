@@ -79,5 +79,5 @@ We compared the results we obtained on Kaggle and found that Sentence-BERT Embed
 - [Ahmad-AM0](https://github.com/Ahmad-AM0)
 - [Haidar-Al-Sous](https://github.com/Haidar-Al-Sous)
 - [kenan-azd-dev](https://github.com/kenan-azd-dev)
-- marianne deep
-- hrayr derbedrossian 
+- [mariannedeeb](https://github.com/mariannedeeb/)
+- [hrayrdb](https://github.com/hrayrdb/)
