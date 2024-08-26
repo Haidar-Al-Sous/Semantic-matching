@@ -46,11 +46,14 @@ We used glove embeddings from [here](https://www.kaggle.com/datasets/takuok/glov
 
 
 ### 6. Doc2Vec Embeddings
-We used the `Gensim` library to compute document embeddings after training it on the Brown corpus. Doc2Vec approach rests on the same ideas used in Word2Vec, namely, continous bag-of-words and skip-gram models.  
-Distributed Memory Model of Paragraph Vectors (derived from continous bag-of-words model):  
+We used the `Gensim` library to compute document embeddings after training it on the Brown corpus. Doc2Vec approach rests on the same ideas used in Word2Vec, namely, continous bag-of-words and skip-gram models.
+
+Distributed Memory Model of Paragraph Vectors (derived from continous bag-of-words model):
+
 ![PV-DM](https://github.com/user-attachments/assets/a2a9089e-f274-4def-af06-c4ec6d020363)
 
-Distributed Bag of Words of Paragraph Vector (derived from  skip-gram model):  
+Distributed Bag of Words of Paragraph Vector (derived from  skip-gram model):
+
 ![PV-DBOW](https://github.com/user-attachments/assets/3ba3856b-e918-48e5-8e6f-2feee4731841)
 
 
