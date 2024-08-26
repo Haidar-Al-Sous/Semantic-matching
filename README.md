@@ -56,8 +56,10 @@ and each word is represented by 600 vectors, then we calculated the sentence emb
 - All two sentences mentioned previously. This idea is taken from Quoc et la 2014, where they followed the approach of 2013. Mikolov et la, where they designed a network similar to the CBOW network and for each of them they added a paragraph id, which represents the paragraph.
 
 - As a whole:
+  
 ![algorithm](https://github.com/user-attachments/assets/9bda26b5-f042-4f00-8757-c12bc996362d)
 - They followed the skip-gram method, but the desired output is paragraph id.
+  
 ![algorithm](https://github.com/user-attachments/assets/d28fcf9d-4cc9-4392-b960-15709cff53ac)
 - Following these two methods results in word embeddings that carry the context information contained within it.
   
