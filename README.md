@@ -31,6 +31,6 @@ pip install -r requirements.txt
 ## Contributors
 - [Ahmad-AM0](https://github.com/Ahmad-AM0)
 - [Haidar-Al-Sous](https://github.com/Haidar-Al-Sous)
-- [Kenan Abo Zaineddin](https://github.com/kenan-azd-dev)
+- [kenan-azd-dev](https://github.com/kenan-azd-dev)
 - marianne deep
 - hrayr derbedrossian 
