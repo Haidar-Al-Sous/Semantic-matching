@@ -17,7 +17,9 @@ This approach consists of simply taking average of words' embeddings (using Word
 
 ### 2. Unweighted Average of Siamese CBOW Embeddings [1]
 In this approach, the goal is to compute word embeddings in a way that uses information about nearby sentences. For each sample, we consider five sentences: the current one, the previous one, the next one, and two randomly selected ones.
+
 ![Network Architecture](https://github.com/user-attachments/assets/5d78ebac-e763-424e-b229-d55bf88dc717)
+
 **In the 1st layer,** we calculate the average of word embeddings for each sentence.
 **In the 2nd layer,** we compute the cosine similarity score between each pair of sentences.
 **In the 3rd layer,** we apply the softmax function to each score from the previous layer.
