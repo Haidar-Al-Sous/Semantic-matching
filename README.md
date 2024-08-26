@@ -20,9 +20,9 @@ In this approach, the goal is to compute word embeddings in a way that uses info
 
 ![Network Architecture](https://github.com/user-attachments/assets/5d78ebac-e763-424e-b229-d55bf88dc717)
 
-**In the 1st layer,** we calculate the average of word embeddings for each sentence.
-**In the 2nd layer,** we compute the cosine similarity score between each pair of sentences.
-**In the 3rd layer,** we apply the softmax function to each score from the previous layer.
+**In the 1st layer,** we calculate the average of word embeddings for each sentence.  
+**In the 2nd layer,** we compute the cosine similarity score between each pair of sentences.  
+**In the 3rd layer,** we apply the softmax function to each score from the previous layer.  
 We update the word embeddings based on stochastic gradient descent.
 
 ### 3. Sentence-BERT Embeddings
@@ -39,12 +39,12 @@ pip install -r requirements.txt
 -
 
 ## References
-- [1]  Kenter, T., Borisov, A., & De Rijke, M. (2016). Siamese CBOW: Optimizing word embeddings for sentence representations. arXiv Preprint arXiv:1606.04640. https://doi.org/10.18653/v1/p16-1089
-- [2]  Reimers, N., & Gurevych, I. (2019). Sentence-BERT: Sentence embeddings using Siamese BERT-Networks. arXiv Preprint arXiv:1908.10084. https://doi.org/10.18653/v1/d19-1410
-- [3]  Mikolov, T. (2013). Efficient estimation of word representations in vector space. arXiv preprint arXiv:1301.3781.
-- [4]  Pagliardini, M., Gupta, P., & Jaggi, M. (2017). Unsupervised learning of sentence embeddings using compositional n-gram features. arXiv preprint arXiv:1703.02507.
-- [5]  Le, Q., & Mikolov, T. (2014). Distributed representations of sentences and documents. International Conference on Machine Learning, 4, 1188–1196. http://ece.duke.edu/~lcarin/ChunyuanLi4.17.2015.pdf
-- [6]  Arora, S., Liang, Y., & Ma, T. (2017). A simple but Tough-to-Beat baseline for sentence embeddings. International Conference on Learning Representations. https://oar.princeton.edu/bitstream/88435/pr1rk2k/1/BaselineSentenceEmbedding.pdf
+[1]  Kenter, T., Borisov, A., & De Rijke, M. (2016). Siamese CBOW: Optimizing word embeddings for sentence representations. arXiv Preprint arXiv:1606.04640. https://doi.org/10.18653/v1/p16-1089  
+[2]  Reimers, N., & Gurevych, I. (2019). Sentence-BERT: Sentence embeddings using Siamese BERT-Networks. arXiv Preprint arXiv:1908.10084. https://doi.org/10.18653/v1/d19-1410  
+[3]  Mikolov, T. (2013). Efficient estimation of word representations in vector space. arXiv preprint arXiv:1301.3781  
+[4]  Pagliardini, M., Gupta, P., & Jaggi, M. (2017). Unsupervised learning of sentence embeddings using compositional n-gram features. arXiv preprint arXiv:1703.02507  
+[5]  Le, Q., & Mikolov, T. (2014). Distributed representations of sentences and documents. International Conference on Machine Learning, 4, 1188–1196. http://ece.duke.edu/~lcarin/ChunyuanLi4.17.2015.pdf  
+[6]  Arora, S., Liang, Y., & Ma, T. (2017). A simple but Tough-to-Beat baseline for sentence embeddings. International Conference on Learning Representations. https://oar.princeton.edu/bitstream/88435/pr1rk2k/1/BaselineSentenceEmbedding.pdf  
 
 ## Contributors
 - [Ahmad-AM0](https://github.com/Ahmad-AM0)
