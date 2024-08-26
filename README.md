@@ -34,7 +34,7 @@ We used `FastSentenceTransformer` to compute sentence embeddings.
 ### 5. Sent2Vec Embeddings
 
 
-### 6. *Doc2Vec Embeddings
+### 6. Doc2Vec Embeddings
 
 
 ## Setup
@@ -52,8 +52,9 @@ pip install -r requirements.txt
 [2]    Reimers, N., & Gurevych, I. (2019). Sentence-BERT: Sentence embeddings using Siamese BERT-Networks. arXiv Preprint arXiv:1908.10084. https://doi.org/10.18653/v1/d19-1410  
 [3]    Mikolov, T. (2013). Efficient estimation of word representations in vector space. arXiv preprint arXiv:1301.3781  
 [4]    Arora, S., Liang, Y., & Ma, T. (2017). A simple but Tough-to-Beat baseline for sentence embeddings. International Conference on Learning Representations. https://oar.princeton.edu/bitstream/88435/pr1rk2k/1/BaselineSentenceEmbedding.pdf  
-[5]    Le, Q., & Mikolov, T. (2014). Distributed representations of sentences and documents. International Conference on Machine Learning, 4, 1188–1196. http://ece.duke.edu/~lcarin/ChunyuanLi4.17.2015.pdf  
-[6]    Pagliardini, M., Gupta, P., & Jaggi, M. (2017). Unsupervised learning of sentence embeddings using compositional n-gram features. arXiv preprint arXiv:1703.02507  
+[5]    Pagliardini, M., Gupta, P., & Jaggi, M. (2017). Unsupervised learning of sentence embeddings using compositional n-gram features. arXiv preprint arXiv:1703.02507  
+[6]    Le, Q., & Mikolov, T. (2014). Distributed representations of sentences and documents. International Conference on Machine Learning, 4, 1188–1196. http://ece.duke.edu/~lcarin/ChunyuanLi4.17.2015.pdf  
+
 ## Contributors
 - [Ahmad-AM0](https://github.com/Ahmad-AM0)
 - [Haidar-Al-Sous](https://github.com/Haidar-Al-Sous)
