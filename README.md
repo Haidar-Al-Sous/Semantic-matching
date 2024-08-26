@@ -15,7 +15,7 @@ pip install -r requirements.txt
 -
 
 ## References:
-- **Arora et al. 2016**: Sanjeev Arora, Yingyu Liang, and Tengyu Ma. 2016. A simple but tough-to-beat baseline for sentence embeddings. [arXiv](https://arxiv.org/abs/1606.04640)
+- **Arora et al. 2016**: Sanjeev Arora, Yingyu Liang, and Tengyu Ma. 2016. A simple but tough-to-beat baseline for sentence embeddings. [openreview](https://openreview.net/forum?id=SyK00v5xx)
 - **Kenter et al. 2016**: Tom Kenter, Alexey Borisov, and Maarten de Rijke. 2016. Siamese CBOW: Optimizing Word Embeddings for Sentence Representations. [arXiv](https://arxiv.org/abs/1606.04640)
 - **Mikolov et al. 2013**: Tomas Mikolov, Kai Chen, Greg S. Corrado, and Jeffrey Dean. 2013. Efficient estimation of word representations in vector spaces. [arXiv](https://arxiv.org/abs/1301.3781)
 - **Pagliardini et al. 2018**: Matteo Pagliardini, Prakhar Gupta, and Martin Jaggi. 2018. Unsupervised Learning of Sentence Embeddings using Compositional n-Gram Features. [arXiv](https://arxiv.org/abs/1703.02507)
