@@ -1,8 +1,18 @@
 # Comparative Study of Semantic Matching Techniques
 
 ## Introduction
+We aim to compare different semantic matching techniques in this study. The goal is to calculate sentence embeddings in the most accurate manner. We selected six approaches and compared them using a [dataset](https://www.kaggle.com/competitions/quora-question-pairs) from Kaggle, which consists of two sentences in each sample along with their similarity. Our approach consists of two stages:
+1. Computing features.
+2. Training a logistic regression model.
 
-We evaluated different embeddings techniques using this [dataset](https://www.kaggle.com/competitions/quora-question-pairs) in the context of semantic matching. We used six techniques:
+For each pair of sentences, we computed three features:
+1. Vector of absolute difference between the sentence embeddings.
+2. Cosine similarity.
+3. Euclidean distance.
+
+Then, we trained a logistic regression model based on the computed features.
+
+We chose the following approaches:
 1. **Unweighted Average of Word2Vec Embeddings.**
 2. **Unweighted Average of Siamese CBOW Embeddings.**
 3. **Sentence-BERT Embeddings.**
@@ -10,8 +20,7 @@ We evaluated different embeddings techniques using this [dataset](https://www.ka
 5. **Sent2Vec Embeddings.**
 6. **Doc2Vec Embeddings.**
 
-Before explaining each appproach, we want to emphasize that the goal is to calculate sentence embeddings in the most accurate way. After that, we train a logistic regression model to output the similarity based on the calculated embeddings from each approach.
-
+## Method
 ### 1. Unweighted Average of Word2Vec Embeddings
 This approach consists of simply taking average of words' embeddings (using Word2Vec) for each sentence.
 
@@ -62,14 +71,8 @@ and each word is represented by 600 vectors, then we calculated the sentence emb
   
 ![algorithm](https://github.com/user-attachments/assets/d28fcf9d-4cc9-4392-b960-15709cff53ac)
 - Following these two methods results in word embeddings that carry the context information contained within it Best sentence embeddings.
-  
-## Setup
-- requirements [here](https://github.com/Haidar-Al-Sous/Semantic-matching/blob/main/requirements.txt)
-- Install the requirements using :
-```bash
-pip install -r requirements.txt
-```
-## Comparison table
+
+## Results
 | Model Name                                   | Train Log Loss | Test Log Loss |
 |----------------------------------------------|----------------|---------------|
 | Unweighted Average of Word2vec Embeddings    | 12.32          | 7.55          |
@@ -78,6 +81,13 @@ pip install -r requirements.txt
 | SIF Weighted Average of Glove Embeddings     | 11.84          | 8.03          |
 | Sent2vec Embeddings                          | 15.02          | 11.03         |
 | Doc2vec Embeddings                           | 13.53          | 9.47          |
+
+## Setup
+- requirements [here](https://github.com/Haidar-Al-Sous/Semantic-matching/blob/main/requirements.txt)
+- Install the requirements using :
+```bash
+pip install -r requirements.txt
+```
 
 ## References
 [1]    Kenter, T., Borisov, A., & De Rijke, M. (2016). Siamese CBOW: Optimizing word embeddings for sentence representations. arXiv Preprint arXiv:1606.04640. https://doi.org/10.18653/v1/p16-1089  
