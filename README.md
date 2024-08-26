@@ -61,9 +61,8 @@ and each word is represented by 600 vectors, then we calculated the sentence emb
 - They followed the skip-gram method, but the desired output is paragraph id.
   
 ![algorithm](https://github.com/user-attachments/assets/d28fcf9d-4cc9-4392-b960-15709cff53ac)
-- Following these two methods results in word embeddings that carry the context information contained within it.
+- Following these two methods results in word embeddings that carry the context information contained within it Best sentence embeddings.
   
-Best sentence embeddings
 ## Setup
 - requirements [here](https://github.com/Haidar-Al-Sous/Semantic-matching/blob/main/requirements.txt)
 - Install the requirements using :
