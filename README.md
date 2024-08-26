@@ -29,7 +29,9 @@ We update the word embeddings based on stochastic gradient descent.
 We used `FastSentenceTransformer` to compute sentence embeddings.
 
 ### 4. SIF Weighted Average of GloVe Embeddings
+We followed the same procedure as outlined in [4]:
 
+![algorithm](https://github.com/user-attachments/assets/4fb53a0c-745e-4ac2-8eae-f9160497a1d3)
 
 ### 5. Sent2Vec Embeddings
 
