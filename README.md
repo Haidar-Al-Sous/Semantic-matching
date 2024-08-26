@@ -23,8 +23,8 @@ pip install -r requirements.txt
 - **Reimers et al. 2019**: Nils Reimers, and Iryna Gurevych. 2019. Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks. arXiv e-prints, 1908.10084.
 
 ## Contributors:
-- Ahmad abou mahmoud
-- Haidar Al-Sous
+- (Ahmad abou mahmoud)[https://github.com/Ahmad-AM0]
+- (Haidar Al-Sous)[https://github.com/Haidar-Al-Sous]
 - Kenan abu zein al-deen
 - marianne deep
 - hrayr derbedrossian 
