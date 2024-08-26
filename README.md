@@ -39,6 +39,7 @@ We used `FastSentenceTransformer` to compute sentence embeddings. You can refer 
 
 ### 4. SIF Weighted Average of GloVe Embeddings
 We followed the same procedure as outlined in [3]:  
+
 ![algorithm](https://github.com/user-attachments/assets/4fb53a0c-745e-4ac2-8eae-f9160497a1d3)  
 We used glove embeddings from [here](https://www.kaggle.com/datasets/takuok/glove840b300dtxt) and word frequencies from [here](https://github.com/PrincetonML/SIF/blob/master/auxiliary_data/enwiki_vocab_min200.txt).
 
@@ -50,12 +51,10 @@ We used the `Gensim` library to compute document embeddings after training it on
 
 Distributed Memory Model of Paragraph Vectors (derived from continous bag-of-words model):
 
-![PV-DM](https://github.com/user-attachments/assets/a2a9089e-f274-4def-af06-c4ec6d020363)
-
+![PV-DM](https://github.com/user-attachments/assets/a2a9089e-f274-4def-af06-c4ec6d020363)  
 Distributed Bag of Words of Paragraph Vector (derived from  skip-gram model):
 
-![PV-DBOW](https://github.com/user-attachments/assets/3ba3856b-e918-48e5-8e6f-2feee4731841)
-
+![PV-DBOW](https://github.com/user-attachments/assets/3ba3856b-e918-48e5-8e6f-2feee4731841)  
 
 ## Results
 We compared the results we obtained on Kaggle and found that Sentence-BERT Embeddings surpassed all of them.
