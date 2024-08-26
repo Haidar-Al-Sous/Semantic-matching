@@ -44,7 +44,7 @@ We followed the same procedure as outlined in [3]:
 We used glove embeddings from [here](https://www.kaggle.com/datasets/takuok/glove840b300dtxt) and word frequencies from [here](https://github.com/PrincetonML/SIF/blob/master/auxiliary_data/enwiki_vocab_min200.txt).
 
 ### 5. Sent2Vec Embeddings
-
+We used `sent2vec` library and wiki_unigram pretrained model. This appraoch is based heavily on continous bag-of-words and skip-gram models but on sentence level.
 
 ### 6. Doc2Vec Embeddings
 We used the `Gensim` library to compute document embeddings after training it on the Brown corpus. Doc2Vec approach rests on the same ideas used in Word2Vec, namely, continous bag-of-words and skip-gram models.
@@ -52,6 +52,7 @@ We used the `Gensim` library to compute document embeddings after training it on
 Distributed Memory Model of Paragraph Vectors (derived from continous bag-of-words model):
 
 ![PV-DM](https://github.com/user-attachments/assets/a2a9089e-f274-4def-af06-c4ec6d020363)  
+
 Distributed Bag of Words of Paragraph Vector (derived from  skip-gram model):
 
 ![PV-DBOW](https://github.com/user-attachments/assets/3ba3856b-e918-48e5-8e6f-2feee4731841)  
