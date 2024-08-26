@@ -45,7 +45,7 @@ We followed the same procedure as outlined in [4]:
 ```bash
 pip install -r requirements.txt
 ```
-## Results
+## Comparison table
 | Model Name                                   | Train Log Loss | Test Log Loss |
 |----------------------------------------------|----------------|---------------|
 | Unweighted Average of Word2vec Embeddings    | 12.32          | 7.55          |
