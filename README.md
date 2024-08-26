@@ -1,8 +1,14 @@
-# Semantic-matching (NLP)
+# Comparative Study of Semantic Matching techniques (NLP)
 
 ## Introduction:
 
-- This project focuses on building a system for semantic text matching using natural language processing techniques. It emphasizes computing sentence embeddings rather than lexical matching.
+We evaluated different embeddings techniques using this [dataset](https://www.kaggle.com/competitions/quora-question-pairs) in the context of semantic matching. We used six techniques:
+1. Unweighted Average of Word2Vec Embeddings.
+2. Unweighted Average of Siamese CBOW Embeddings
+3. Sentence-BERT Embeddings.
+4. SIF Weighted Average of GloVe Embeddings.
+5. Sent2Vec Embeddings.
+6. Doc2Vec Embeddings.
 
 ## Setup:
 - requirements [here](https://github.com/Haidar-Al-Sous/Semantic-matching/blob/main/requirements.txt)
