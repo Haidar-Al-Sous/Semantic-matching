@@ -45,18 +45,23 @@ and each word is represented by 600 vectors, then we calculated the sentence emb
 - In the Pagliardinietla.2018 paper, we followed the Mikolovetla.2013 approach, but at the sentence level.
 
 ### 6. Doc2Vec Embeddings
--In this method, we downloaded the Doc2vec library and trained it using words from the Brown Corpus, which is a small set of texts compared to the data, as the Brown Corpus contains 57 thousand non-words.
+- In this method, we downloaded the Doc2vec library and trained it using words from the Brown Corpus, which is a small set of texts compared to the data, as the Brown Corpus contains 57 thousand non-words.
 
--Duplicate, it was chosen due to time constraints and modest capabilities.
+- Duplicate, it was chosen due to time constraints and modest capabilities.
 
--After training, the Doc2vec model stores words and their vectors.
+- After training, the Doc2vec model stores words and their vectors.
 
--Then we calculated the sentence embeddings for each sentence in the form of tokens, and then we calculated the features between
+- Then we calculated the sentence embeddings for each sentence in the form of tokens, and then we calculated the features between
 
--All two sentences mentioned previously. This idea is taken from Quoc et la 2014, where they followed the approach of 2013. Mikolov et la, where they designed a network similar to the CBOW network and for each of them they added a paragraph id, which represents the paragraph.
+- All two sentences mentioned previously. This idea is taken from Quoc et la 2014, where they followed the approach of 2013. Mikolov et la, where they designed a network similar to the CBOW network and for each of them they added a paragraph id, which represents the paragraph.
 
--As a whole:
-
+- As a whole:
+![algorithm](https://github.com/user-attachments/assets/9bda26b5-f042-4f00-8757-c12bc996362d)
+- They followed the skip-gram method, but the desired output is paragraph id.
+![algorithm](https://github.com/user-attachments/assets/d28fcf9d-4cc9-4392-b960-15709cff53ac)
+- Following these two methods results in word embeddings that carry the context information contained within it.
+  
+Best sentence embeddings
 ## Setup
 - requirements [here](https://github.com/Haidar-Al-Sous/Semantic-matching/blob/main/requirements.txt)
 - Install the requirements using :
