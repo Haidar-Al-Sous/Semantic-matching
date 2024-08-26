@@ -46,8 +46,14 @@ We followed the same procedure as outlined in [4]:
 pip install -r requirements.txt
 ```
 ## Results
--
--
+| Model Name                                   | Train Log Loss | Test Log Loss |
+|----------------------------------------------|----------------|---------------|
+| Unweighted Average of Word2vec Embeddings    | 12.32          | 7.55          |
+| Unweighted Average of Siamese CBOW Embeddings| 13.45          | 8.07          |
+| Sentence-BERT Embeddings                     | 8.49           | 7.10          |
+| SIF Weighted Average of Glove Embeddings     | 11.84          | 8.03          |
+| Sent2vec Embeddings                          | 15.02          | 11.03         |
+| Doc2vec Embeddings                           | 13.53          | 9.47          |
 
 ## References
 [1]    Kenter, T., Borisov, A., & De Rijke, M. (2016). Siamese CBOW: Optimizing word embeddings for sentence representations. arXiv Preprint arXiv:1606.04640. https://doi.org/10.18653/v1/p16-1089  
