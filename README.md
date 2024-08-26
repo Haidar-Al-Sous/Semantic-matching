@@ -1,4 +1,4 @@
-# Comparative Study of Semantic Matching techniques (NLP)
+# Comparative Study of Semantic Matching techniques
 
 ## Introduction
 
