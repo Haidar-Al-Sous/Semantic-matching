@@ -60,7 +60,7 @@ Distributed Bag of Words of Paragraph Vector (derived from  skip-gram model):
 ## Results
 We compared the results we obtained on Kaggle and found that Sentence-BERT Embeddings surpassed all of them.
 | Model Name                                   | Train Log Loss | Test Log Loss |
-|----------------------------------------------|----------------|---------------|
+| :---                                         |     :---:      |     :---:     |
 | Unweighted Average of Word2vec Embeddings    | 12.32          | 7.55          |
 | Unweighted Average of Siamese CBOW Embeddings| 13.45          | 8.07          |
 | Sentence-BERT Embeddings                     | 8.49           | 7.10          |
